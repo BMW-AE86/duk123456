@@ -20,8 +20,8 @@ pdf.output(pdf_file_name)
 wasabi_s3 = boto3.client(
     's3',
     endpoint_url='https://s3.wasabisys.com',
-    aws_access_key_id='YOUR_ACCESS_KEY',  # Replace with your Wasabi Access Key
-    aws_secret_access_key='YOUR_SECRET_KEY'  # Replace with your Wasabi Secret Key
+    aws_access_key_id='ANLDS76GW5KOK4REGUYC',  # Replace with your Wasabi Access Key
+    aws_secret_access_key='MmiG5F1DwpNMbtQQsD7Zkw95AhIJHzqXnIfXzimQ'  # Replace with your Wasabi Secret Key
 )
 
 bucket_name = "houssem"  # Replace with your Wasabi bucket name
