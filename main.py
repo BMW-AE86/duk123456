@@ -13,7 +13,7 @@ pdf.set_font("Arial", size=12)
 for email in emails:
     pdf.cell(200, 10, txt=email, ln=True, align='L')
 
-pdf_file_name = "new-emails.pdf"
+pdf_file_name = "new-emails1.pdf"
 pdf.output(pdf_file_name)
 
 # Upload PDF to Wasabi
